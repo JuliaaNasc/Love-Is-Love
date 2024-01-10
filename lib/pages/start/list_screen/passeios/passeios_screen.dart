@@ -1,19 +1,18 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ScreenTwo extends StatefulWidget {
-  const ScreenTwo({super.key});
+class PasseiosScreen extends StatefulWidget {
+  const PasseiosScreen({super.key});
 
   @override
-  State<ScreenTwo> createState() => _ScreenTwoState();
+  State<PasseiosScreen> createState() => _PasseiosScreenState();
 }
 
-class _ScreenTwoState extends State<ScreenTwo> {
+class _PasseiosScreenState extends State<PasseiosScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
        appBar: AppBar(
-        title: Text('TELA 02'),
+        title: Text('TELA 04'),
       ),
         body: const Center(
       child: Column(

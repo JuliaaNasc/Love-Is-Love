@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class ScreenSix extends StatefulWidget {
-  const ScreenSix({super.key});
+class ViagensScreen extends StatefulWidget {
+  const ViagensScreen({super.key});
 
   @override
-  State<ScreenSix> createState() => _ScreenSixState();
+  State<ViagensScreen> createState() => _ViagensScreenState();
 }
 
-class _ScreenSixState extends State<ScreenSix> {
+class _ViagensScreenState extends State<ViagensScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
        appBar: AppBar(
-        title: Text('TELA 06'),
+        title: Text('TELA 03'),
       ),
         body: const Center(
       child: Column(
