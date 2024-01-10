@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class Local_01 extends StatelessWidget {
-  const Local_01({super.key});
+class CanoaQuebradaScreen extends StatelessWidget {
+  const CanoaQuebradaScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+       appBar: AppBar(),
         body: Center(
         child: Column(
           children: [
             const Text(
-              'Shopping Del Paseo',
+              'Canoa Quebrada',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
@@ -20,7 +20,7 @@ class Local_01 extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
               child: Text(
-                'Amor, que tal um passeio no shopping juntos hoje? Podemos aproveitar para curtir um tempo a sós e fazer umas comprinhas! \nE como não é um shopping muito grande, podemos curtir um cinema em um local diferente, que tal?',
+                'Oi amor, estive planejando algo especial para nós dois. Que tal uma viagem a um lugar misterioso e encantador? Uma escapada a Canoa Quebrada! Prepare-se para viver momentos únicos em praias paradisíacas, explorar paisagens incríveis e descobrir juntos os segredos desse destino. Topa embarcar nessa aventura comigo?',
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   fontSize: 18,
@@ -29,7 +29,7 @@ class Local_01 extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-              child: Image.asset('assets/image/shopping_del_passeio.jpg'),
+              child: Image.asset('assets/image/canoa_quebrada.jpg'),
             ),
           ],
         ),

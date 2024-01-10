@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:love_is_love/components/button_component.dart';
-import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_01.dart';
-import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_02.dart';
-import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_03.dart';
+import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_01_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_02_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/shopping/listing/local_03_screen.dart';
 
 class ShoppingScreen extends StatefulWidget {
   const ShoppingScreen({super.key});
@@ -28,21 +28,21 @@ class _ShoppingScreenState extends State<ShoppingScreen> {
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'LOCAL SURPRESA',
-                  tela: Local_01(),
+                  tela: Local_01_Screen(),
                 ),
               ),
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'LOCAL SURPRESA',
-                  tela: Local_02(),
+                  tela: Local_02_Screen(),
                 ),
               ),
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'LOCAL SURPRESA',
-                  tela: Local_03(),
+                  tela: Local_03_Screen(),
                 ),
               ),
             ],
