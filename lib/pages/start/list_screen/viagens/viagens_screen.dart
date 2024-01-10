@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canoa_quebrada_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/jericoacoara_screen.dart';
-import 'package:love_is_love/pages/start/list_screen/viagens/listing/viagem_03_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/guaramiranga_screen.dart';
 
 class ViagensScreen extends StatefulWidget {
   const ViagensScreen({super.key});

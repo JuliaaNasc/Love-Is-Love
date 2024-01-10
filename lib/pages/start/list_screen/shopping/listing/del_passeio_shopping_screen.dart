@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class Local_02_Screen extends StatelessWidget {
-  const Local_02_Screen({super.key});
+class DelPasseioShoppingScreen extends StatelessWidget {
+  const DelPasseioShoppingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
+        body: Center(
         child: Column(
           children: [
             const Text(
-              'Via Sul Shopping',
+              'Shopping Del Paseo',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
@@ -20,7 +20,7 @@ class Local_02_Screen extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
               child: Text(
-                'Estava planejando uma ida ao shopping e adoraria ter sua companhia. Vamos juntos? Será divertido! \nE não precisa se preocupar, pois o crônograma é por minha conta, e estou ansiosa para te mostrar o que preparei.',
+                'Amor, que tal um passeio no shopping juntos hoje? Podemos aproveitar para curtir um tempo a sós e fazer umas comprinhas! \nE como não é um shopping muito grande, podemos curtir um cinema em um local diferente, que tal?',
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   fontSize: 18,
@@ -29,7 +29,7 @@ class Local_02_Screen extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-              child: Image.asset('assets/image/via_sul_shopping.jpg'),
+              child: Image.asset('assets/image/shopping_del_passeio.jpg'),
             ),
           ],
         ),
