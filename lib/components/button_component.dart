@@ -89,7 +89,7 @@ class _ButtonComponentState extends State<ButtonComponent> {
         width: 400,
         height: 50,
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 170, 122, 178),
+          color: Colors.brown,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(

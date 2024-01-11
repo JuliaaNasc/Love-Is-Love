@@ -12,6 +12,7 @@ class MadeiroScreen extends StatelessWidget {
           children: [
             const Text(
               'Madero Steak House Iguatemi Bosque',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
