@@ -5,6 +5,7 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/gramado_scr
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/jericoacoara_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/guaramiranga_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/natal_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/santa_catarina_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/sao_paulo_screen.dart';
 
 class ViagensScreen extends StatefulWidget {
@@ -45,27 +46,34 @@ class _ViagensScreenState extends State<ViagensScreen> {
                 tela: GuaramirangaScreen(),
               ),
             ),
-             Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'VIAGEM SURPRESA',
-                  tela: NatalScreen(),
-                ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: ButtonComponent(
+                texto: 'VIAGEM SURPRESA',
+                tela: NatalScreen(),
               ),
-               Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'VIAGEM SURPRESA',
-                  tela: SaoPauloScreen(),
-                ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: ButtonComponent(
+                texto: 'VIAGEM SURPRESA',
+                tela: SaoPauloScreen(),
               ),
-               Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'VIAGEM SURPRESA',
-                  tela: GramadoScreen(),
-                ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: ButtonComponent(
+                texto: 'VIAGEM SURPRESA',
+                tela: GramadoScreen(),
               ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: ButtonComponent(
+                texto: 'VIAGEM SURPRESA',
+                tela: SantaCatarinaScreen(),
+              ),
+            ),
           ],
         ),
       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class JericoacoaraScreen extends StatelessWidget {
   const JericoacoaraScreen({super.key});
@@ -6,32 +7,46 @@ class JericoacoaraScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
-        body: Center(
-        child: Column(
-          children: [
-            const Text(
-              'Jericoacoara',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 25,
+      appBar: AppBar(),
+      body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Jericoacoara',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25,
+                    ),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: Lottie.asset(
+                      'assets/animations/bolhas_de_coracao.json',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ],
               ),
-            ),
-            const Padding(
-              padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
-              child: Text(
-                'Amor, que tal vivermos uma experiência única juntos? Uma viagem a Jericoacoara! Areias douradas, paisagens de tirar o fôlego e um pôr do sol inesquecível nos esperam. Vamos explorar dunas, relaxar em praias paradisíacas e criar memórias inesquecíveis nesse paraíso? Mal posso esperar para compartilhar esse momento especial ao seu lado. Topa?',
-                textAlign: TextAlign.justify,
-                style: TextStyle(
-                  fontSize: 18,
+              const Padding(
+                padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                child: Text(
+                  'Meu Bem, estou tão animada, \n\nEspero que esta mensagem o encontre cheio de energia e disposição! Estou planejando uma viagem incrível e pensei imediatamente em você para compartilhar essa experiência única. \n\nVamos para Jericoacoara, um verdadeiro paraíso escondido no nordeste do Brasil! Dunas de areia branca, praias de águas cristalinas, e um pôr do sol que é simplesmente inesquecível. Esta é a oportunidade perfeita para nos afastarmos um pouco da rotina e aproveitarmos as maravilhas que a natureza tem a oferecer.',
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(
+                    fontSize: 18,
+                  ),
                 ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(10, 30, 10, 30),
-              child: Image.asset('assets/imagens_viagens/jericoacoara.jpg'),
-            ),
-          ],
+              Padding(
+                padding: const EdgeInsets.fromLTRB(10, 30, 10, 30),
+                child: Image.asset('assets/imagens_viagens/jericoacoara.jpg'),
+              ),
+            ],
+          ),
         ),
       ),
     );

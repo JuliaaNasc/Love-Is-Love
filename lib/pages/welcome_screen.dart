@@ -28,7 +28,7 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(
               height: 300,
               child: Lottie.asset(
-                  'assets/animations_welcome_screen/animation_coracao_veloz.json'),
+                  'assets/animations/animation_coracao_veloz.json'),
             ),
           ],
         ),

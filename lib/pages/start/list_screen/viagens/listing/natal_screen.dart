@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class NatalScreen extends StatelessWidget {
   const NatalScreen({super.key});
@@ -11,12 +12,24 @@ class NatalScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const Text(
-                'Natal - Rio Grande Do Norte',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 25,
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Natal \nRio Grande Do Norte',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25,
+                    ),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: Lottie.asset(
+                      'assets/animations/bolhas_de_coracao.json',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ],
               ),
               const Padding(
                 padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
