@@ -29,7 +29,7 @@ class MadeiroScreen extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+              padding: const EdgeInsets.fromLTRB(10, 30, 10, 30),
               child: Image.asset('assets/image/madeiro_iguatemi.jpg'),
             ),
           ],

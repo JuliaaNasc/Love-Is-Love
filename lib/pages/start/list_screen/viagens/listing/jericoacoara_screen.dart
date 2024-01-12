@@ -28,8 +28,8 @@ class JericoacoaraScreen extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-              child: Image.asset('assets/image/jericoacoara.jpg'),
+              padding: const EdgeInsets.fromLTRB(10, 30, 10, 30),
+              child: Image.asset('assets/imagens_viagens/jericoacoara.jpg'),
             ),
           ],
         ),
