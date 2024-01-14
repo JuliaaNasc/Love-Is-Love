@@ -7,30 +7,30 @@ class SaoPauloScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+      appBar: AppBar(),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
             children: [
-               Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                 children: [
+                children: [
                   const Text(
                     'São Paulo',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 25,
                     ),
-              ),
-                SizedBox(
+                  ),
+                  SizedBox(
                     width: 100,
                     child: Lottie.asset(
                       'assets/animations/bolhas_de_coracao.json',
                       fit: BoxFit.cover,
                     ),
                   ),
-                 ],
-               ),
+                ],
+              ),
               const Padding(
                 padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
                 child: Text(

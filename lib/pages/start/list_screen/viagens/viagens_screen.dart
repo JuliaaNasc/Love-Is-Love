@@ -2,13 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/beach_park_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/california_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canoa_quebrada_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/chile_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/gramado_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/jericoacoara_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/guaramiranga_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/joao_pessoa_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/londres_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/maceio_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/natal_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/new_york_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/orlando_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/paris_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/portugual_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/recife_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/rio_e_janeiro_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/santa_catarina_screen.dart';
@@ -116,7 +123,56 @@ class _ViagensScreenState extends State<ViagensScreen> {
                   tela: RecifeScreen(),
                 ),
               ),
-           
+// ---------------------------------------------------------------------------------
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: OrlandoScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: CaliforniaScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: NewYorkScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: LondresScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: ChileScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: ParisScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM INTERNACIONAL SURPRESA',
+                  tela: PortugualScreen(),
+                ),
+              ),
               SizedBox(
                 width: 200,
                 height: 200,
