@@ -33,7 +33,7 @@ class _ViagensScreenState extends State<ViagensScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(''),
+        title: Text('VIAGENS MISTERIOSAS'),
       ),
       body: Center(
         child: SingleChildScrollView(
