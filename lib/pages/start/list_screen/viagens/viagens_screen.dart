@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/beach_park_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/bonito_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/california_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/campos_do_jordao_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/canela_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canoa_quebrada_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/chile_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/gramado_screen.dart';
@@ -11,6 +14,8 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/guaramirang
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/joao_pessoa_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/londres_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/maceio_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/maragogi_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/maranhao_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/natal_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/new_york_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/orlando_screen.dart';
@@ -18,6 +23,7 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/paris_scree
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/portugual_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/recife_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/rio_e_janeiro_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/salvador_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/santa_catarina_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/sao_paulo_screen.dart';
 
@@ -121,6 +127,48 @@ class _ViagensScreenState extends State<ViagensScreen> {
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: RecifeScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: MaragogiScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: SalvadorScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: CamposDoJordaoScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: Canelascreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: MaranhaoScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: BonitoScreen(),
                 ),
               ),
 // ---------------------------------------------------------------------------------
