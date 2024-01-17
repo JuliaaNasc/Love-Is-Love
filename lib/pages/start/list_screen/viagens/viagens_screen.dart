@@ -8,6 +8,9 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/campos_do_j
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canela_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canoa_quebrada_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/chile_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/fernando_de_noronha_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/florianopolis_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/foz_do_iguacu_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/gramado_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/jericoacoara_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/guaramiranga_screen.dart';
@@ -19,7 +22,10 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/maranhao_sc
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/natal_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/new_york_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/orlando_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/palmas_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/paris_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/porto_de_galinhas_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/porto_velho_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/portugual_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/recife_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/rio_e_janeiro_screen.dart';
@@ -169,6 +175,48 @@ class _ViagensScreenState extends State<ViagensScreen> {
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: BonitoScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: FozDoIguacuScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: FlorianopolisScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: PalmasScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: PortoVelhoScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: FernandoDeNoronhaScreen(),
+                ),
+              ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: PortoDeGalinhasScreen(),
                 ),
               ),
 // ---------------------------------------------------------------------------------
