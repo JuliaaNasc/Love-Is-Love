@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/aguas_da_prata_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/beach_park_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/bonito_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/california_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/campos_do_jordao_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canela_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/canoa_quebrada_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/chapada_diamantina_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/chile_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/fernando_de_noronha_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/florianopolis_screen.dart';
@@ -19,6 +21,8 @@ import 'package:love_is_love/pages/start/list_screen/viagens/listing/londres_scr
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/maceio_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/maragogi_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/maranhao_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/morro_branco_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/viagens/listing/morro_de_sao_paulo_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/natal_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/new_york_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/listing/orlando_screen.dart';
@@ -217,6 +221,34 @@ class _ViagensScreenState extends State<ViagensScreen> {
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: PortoDeGalinhasScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: MorroDeSaoPauloScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: AguasDaPrataScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: MorroBrancoScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'VIAGEM SURPRESA',
+                  tela: ChapadaDiamantinaScreen(),
                 ),
               ),
 // ---------------------------------------------------------------------------------
