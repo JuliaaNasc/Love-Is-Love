@@ -7,9 +7,13 @@ import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/bitonh
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/carneiro_do_ordones_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/coco_bambu_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/colosso_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/johnny_rockets_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/la_bella_italia_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/la_mare_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/madeiro_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/mc_donald_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/pizzaria_hut_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/puro_acai_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/quatro_estilos_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/ronco_do_mar_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/two_brothers_screen.dart';
@@ -116,6 +120,34 @@ class _RestaurantesScreenState extends State<RestaurantesScreen> {
                 child: ButtonComponent(
                   texto: 'RESTAURANTE SURPRESA',
                   tela: BitonhoScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: McDonaldScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: PuroAcaiScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: JohnnyRocketsScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: PizzariaHutScreen(),
                 ),
               ),
               //----------------------------------------------------------------------------
