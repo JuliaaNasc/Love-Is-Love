@@ -3,6 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/bece_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/beira_mar_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/passeios/listing/del_passeio_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/dragao_do_mar_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/museu_arte_contemporanea_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/museu_da_fotografia_screen.dart';
@@ -13,6 +14,8 @@ import 'package:love_is_love/pages/start/list_screen/passeios/listing/parque_do_
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/passeio_de_vlt_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/pinacoteca_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/praia_do_futuro_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/passeios/listing/shopping_iguatemi_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/passeios/listing/shoppinh_via_sul_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/teatro_jose_alencar_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/veleiro_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/listing/zoologico_screen.dart';
@@ -139,6 +142,27 @@ class _PasseiosScreenState extends State<PasseiosScreen> {
                 child: ButtonComponent(
                   texto: 'PASSEIO SURPRESA',
                   tela: MuseuDaIndustriaScreen(),
+                ),
+              ),
+                const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'PASSEIO SURPRESA',
+                  tela: DelPasseioScreen(),
+                ),
+              ),
+                const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'PASSEIO SURPRESA',
+                  tela: ShoppingIguatemiScreen(),
+                ),
+              ),
+                 const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'PASSEIO SURPRESA',
+                  tela: ShoppingViaSulScreen(),
                 ),
               ),
           //----------------------------------------------------------------------------------------

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:love_is_love/components/button_component.dart';
-import 'package:love_is_love/pages/start/list_screen/shopping/shopping_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/viagens_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/restaurantes_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/passeios_screen.dart';
@@ -13,7 +12,6 @@ class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
         title: const Text(
           'TELA PRINCIPAL DO APLICATIVO',
@@ -39,13 +37,6 @@ class StartScreen extends StatelessWidget {
               child: ButtonComponent(
                 texto: 'PASSEIOS',
                 tela: PasseiosScreen(),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ButtonComponent(
-                texto: 'SHOPPING',
-                tela: ShoppingScreen(),
               ),
             ),
             Padding(
