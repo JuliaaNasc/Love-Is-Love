@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/balcone_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/bitonho_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/carneiro_do_ordones_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/coco_bambu_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/listing/colosso_screen.dart';
@@ -89,27 +90,34 @@ class _RestaurantesScreenState extends State<RestaurantesScreen> {
                   tela: LaBellaItaliaScreen(),
                 ),
               ),
-                   const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ButtonComponent(
-                texto: 'RESTAURANTE SURPRESA',
-                tela: CarneiroDoOrdonesScreen(),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: CarneiroDoOrdonesScreen(),
+                ),
               ),
-            ),
-                 const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ButtonComponent(
-                texto: 'RESTAURANTE SURPRESA',
-                tela: LaMareScreen(),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: LaMareScreen(),
+                ),
               ),
-            ),
-                 const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ButtonComponent(
-                texto: 'RESTAURANTE SURPRESA',
-                tela: ColossoScreen(),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: ColossoScreen(),
+                ),
               ),
-            ),
+               const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'RESTAURANTE SURPRESA',
+                  tela: BitonhoScreen(),
+                ),
+              ),
               //----------------------------------------------------------------------------
               SizedBox(
                 width: 200,
