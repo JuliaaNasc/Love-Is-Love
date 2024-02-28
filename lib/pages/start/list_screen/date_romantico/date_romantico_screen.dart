@@ -9,7 +9,9 @@ import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/date
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/degustacao_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/dia_desenho_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/dia_spa_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/filme_cinema_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/jantar_tematico_screen.dart';
+import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/karaoke_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/momento_massinha_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/picnic_praia_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/listing/produzir_app_screen.dart';
@@ -103,36 +105,50 @@ class _DateRomanticoScreenState extends State<DateRomanticoScreen> {
                   tela: PicnicPraiaScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'DATES ROMANTICOS SURPRESA',
                   tela: AulaDeDancaScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'DATES ROMANTICOS SURPRESA',
                   tela: DiaDoDesenhoScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'DATES ROMANTICOS SURPRESA',
                   tela: ProduzirAppScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'DATES ROMANTICOS SURPRESA',
                   tela: DateSurpresa01Screen(),
                 ),
               ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'DATES ROMANTICOS SURPRESA',
+                  tela: KaraokeScreen(),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: ButtonComponent(
+                  texto: 'DATES ROMANTICOS SURPRESA',
+                  tela: FilmeNoCinemaScreen(),
+                ),
+              ),
               //----------------------------------------------------------------------------------------
-        
+
               SizedBox(
                 width: 200,
                 height: 200,
