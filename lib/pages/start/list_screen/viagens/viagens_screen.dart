@@ -51,7 +51,12 @@ class _ViagensScreenState extends State<ViagensScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('VIAGENS MISTERIOSAS'),
+        title: const Text(
+          'VIAGENS MISTERIOSAS',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -183,42 +188,42 @@ class _ViagensScreenState extends State<ViagensScreen> {
                   tela: BonitoScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: FozDoIguacuScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: FlorianopolisScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: PalmasScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: PortoVelhoScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: FernandoDeNoronhaScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
@@ -253,14 +258,14 @@ class _ViagensScreenState extends State<ViagensScreen> {
                   tela: ChapadaDiamantinaScreen(),
                 ),
               ),
-                 const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',
                   tela: ParatyScreen(),
                 ),
               ),
-                 const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'VIAGEM SURPRESA',

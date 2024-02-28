@@ -38,7 +38,12 @@ class _PasseiosScreenState extends State<PasseiosScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('PASSEIOS MISTERIOSOS'),
+          title: const Text(
+            'PASSEIOS MISTERIOSOS',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
         body: Center(
           child: SingleChildScrollView(
@@ -192,27 +197,27 @@ class _PasseiosScreenState extends State<PasseiosScreen> {
                     tela: ShoppingBenficaScreen(),
                   ),
                 ),
-                  const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'PASSEIO SURPRESA',
-                  tela: NorthShoppingScreen(),
-                ),
-              ),
                 const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'PASSEIO SURPRESA',
-                  tela: RioMarKennedyScreen(),
+                  padding: EdgeInsets.all(8.0),
+                  child: ButtonComponent(
+                    texto: 'PASSEIO SURPRESA',
+                    tela: NorthShoppingScreen(),
+                  ),
                 ),
-              ),
                 const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: ButtonComponent(
-                  texto: 'PASSEIO SURPRESA',
-                  tela: RioMarFortalezaScreen(),
+                  padding: EdgeInsets.all(8.0),
+                  child: ButtonComponent(
+                    texto: 'PASSEIO SURPRESA',
+                    tela: RioMarKennedyScreen(),
+                  ),
                 ),
-              ),
+                const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: ButtonComponent(
+                    texto: 'PASSEIO SURPRESA',
+                    tela: RioMarFortalezaScreen(),
+                  ),
+                ),
                 //----------------------------------------------------------------------------------------
                 SizedBox(
                   width: 200,

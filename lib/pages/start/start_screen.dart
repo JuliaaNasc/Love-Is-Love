@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/list_screen/viagens/viagens_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/restaurantes/restaurantes_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/passeios/passeios_screen.dart';
 import 'package:love_is_love/pages/start/list_screen/date_romantico/date_romantico_screen.dart';
-import 'package:love_is_love/pages/start/list_screen/noite_da_comida/noite_da_comida_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -44,13 +44,6 @@ class StartScreen extends StatelessWidget {
               child: ButtonComponent(
                 texto: 'RESTAURANTES',
                 tela: RestaurantesScreen(),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ButtonComponent(
-                texto: 'NOITE DE COMIDA',
-                tela: NoiteDaComidaScreen(),
               ),
             ),
             Padding(

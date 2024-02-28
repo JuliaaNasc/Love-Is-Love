@@ -31,7 +31,12 @@ class _RestaurantesScreenState extends State<RestaurantesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('RESTAURANTES MISTERIOSOS'),
+        title: const Text(
+          'RESTAURANTES MISTERIOSOS',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -115,7 +120,7 @@ class _RestaurantesScreenState extends State<RestaurantesScreen> {
                   tela: ColossoScreen(),
                 ),
               ),
-               const Padding(
+              const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: ButtonComponent(
                   texto: 'RESTAURANTE SURPRESA',

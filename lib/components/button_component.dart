@@ -20,6 +20,7 @@ class _ButtonComponentState extends State<ButtonComponent> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      
       onTap: () {
         showDialog(
           context: context,
@@ -89,7 +90,7 @@ class _ButtonComponentState extends State<ButtonComponent> {
         width: 400,
         height: 50,
         decoration: BoxDecoration(
-          color: Colors.brown,
+          color: const Color.fromARGB(255, 170, 123, 105),
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(

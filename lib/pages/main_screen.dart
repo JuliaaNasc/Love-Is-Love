@@ -1,7 +1,5 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:love_is_love/components/button_component.dart';
 import 'package:love_is_love/pages/start/start_screen.dart';
 
