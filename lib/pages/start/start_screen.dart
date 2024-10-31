@@ -21,32 +21,60 @@ class StartScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: const SingleChildScrollView(
+      body:  SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 20),
-            Padding(
-              padding: EdgeInsets.all(8.0),
+
+            SizedBox(
+              width: 200,
+              height: 200,
+              child: Lottie.asset(
+                'assets/animations/casal.json',
+                fit: BoxFit.cover,
+              ),
+            ),
+
+            const Padding(
+              padding: EdgeInsets.fromLTRB(10, 10, 10, 8),
+              child: Text(
+                'Que o amor de vocês floresça a cada dia, alimentado pelo carinho, pela paciência e pela cumplicidade que só os verdadeiros amantes conhecem.',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+            ),
+
+
+
+
+
+
+            
+            const SizedBox(height: 40),
+            const Padding(
+              padding: EdgeInsets.fromLTRB(10, 0, 10, 8),
               child: ButtonComponent(
                 texto: 'VIAGENS',
                 tela: ViagensScreen(),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ButtonComponent(
                 texto: 'PASSEIOS',
                 tela: PasseiosScreen(),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ButtonComponent(
                 texto: 'RESTAURANTES',
                 tela: RestaurantesScreen(),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ButtonComponent(
                 texto: 'DATE ROMÂNTICO',

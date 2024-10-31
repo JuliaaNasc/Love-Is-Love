@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -17,6 +18,8 @@ class PageComponent extends StatefulWidget {
 }
 
 class _PageComponentState extends State<PageComponent> {
+  bool checkValue = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,6 +58,44 @@ class _PageComponentState extends State<PageComponent> {
                   textAlign: TextAlign.justify,
                   style: const TextStyle(
                     fontSize: 18,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 40, 20, 0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Colors.grey,
+                    width: 2.0,
+                    ),
+                    boxShadow: [BoxShadow(color: Colors.grey, offset: Offset(3, 3)) ],
+                    borderRadius: BorderRadius.circular(15),
+                    
+                  ),
+                  child: Row(
+                    children: [
+                      const Expanded(
+                        child:  Padding(
+                          padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                          child: Text(
+                            'Selecione ao lado para confirmar: ',
+                            textAlign: TextAlign.left,
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Checkbox(
+                        value: checkValue,
+                        onChanged: (bool? value) {
+                          setState(() {
+                            checkValue = value ?? false;
+                          });
+                        },
+                      ),
+                    ],
                   ),
                 ),
               ),
